@@ -1,0 +1,140 @@
+body {
+    background-color: bisque;
+}
+
+.run {
+    font-family: 標楷體;
+}
+
+nav {
+    color: blueviolet;
+    text-align: left;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    font-family: 標楷體;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.list {
+    display: flex;
+}
+
+.l {
+    width: 60%;
+}
+
+.r {
+    width: 30%;
+}
+
+.icon {
+    height: 30px;
+}
+
+.photo {
+    height: 400px;
+    width: 450px;
+    padding-left: 10px;
+}
+
+.imgs {
+    display: flex;
+}
+
+.photos {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.page {
+    display: flex;
+}
+
+.page1 {
+    width: 40%;
+}
+
+.page2 {
+    width: 60%;
+    border-style: solid;
+    line-height: 80px;
+}
+
+.text1,
+.price {
+    text-align: center;
+    font-size: 40px;
+    font-family: 標楷體;
+}
+
+.color select {
+    justify-content: center;
+    background-color: antiquewhite;
+    border-style: solid;
+}
+
+.color {
+    /*border-style: solid;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-style: solid;
+    margin-top: 30px;
+}
+
+input {
+    border: 0;
+    background-color: #003C9D;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:hover {
+    color: #003C9D;
+    background-color: #fff;
+    border: 2px #003C9D solid;
+}
+
+.comment {
+    /*background-color: blue;*/
+    /*height: 100px;*/
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+}
+
+.memo1 {
+    width: 50%;
+    background-color: aliceblue;
+    border-style: solid;
+}
+
+.memo2 {
+    width: 50%;
+    background-color: aliceblue;
+    border-style: solid;
+}
+
+.memo1 p,
+.memo2 p {
+    font-size: 30px;
+    font-family: 標楷體;
+    text-align: center;
+}

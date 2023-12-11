@@ -1,0 +1,85 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.run {
+    font-family: 標楷體;
+}
+
+nav {
+    color: blueviolet;
+    text-align: left;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    font-family: 標楷體;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.list {
+    display: flex;
+}
+
+.l {
+    width: 60%;
+}
+
+.r {
+    width: 30%;
+}
+
+.icon {
+    height: 30px;
+}
+
+.text {
+    font-size: 30px;
+    font-family: 標楷體;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    width: 25%;
+    /*border-style: solid;*/
+}
+
+.word {
+    font-family: 標楷體;
+    font-size: 30px;
+}
+
+.photo1 img,
+.photo2 img,
+.photo3 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.photo1 img:hover,
+.photo2 img:hover,
+.photo3 img:hover {
+    transform: scale(1.2, 1.2);
+}
