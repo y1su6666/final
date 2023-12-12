@@ -138,3 +138,10 @@ input:hover {
     font-family: 標楷體;
     text-align: center;
 }
+
+.c1,
+.c2,
+.c3 {
+    width: 30%;
+    border-style: solid;
+}
