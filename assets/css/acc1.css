@@ -144,4 +144,95 @@ input:hover {
 .c3 {
     width: 30%;
     border-style: solid;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.recommend {
+    background-color: beige;
+}
+
+.recommend p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 30%;
+    border-style: solid;
+}
+
+.it1,
+.it2,
+.it3 {
+    width: 200px;
+    height: 200px;
+    /*height: 100vh;*/
+    display: block;
+    margin: auto;
+}
+
+.comment-place {
+    outline: none;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(210, 210, 210);
+    font-size: 15px;
+    width: 60%;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+    /*display: block;
+    margin: auto;*/
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label {
+    position: relative;
+    width: 8%;
+    margin-left: 2%;
+    font-size: 28px;
+    color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+
+.rating>label::before {
+    content: "★";
+    position: absolute;
+    opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1;
+}
+
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4;
 }
