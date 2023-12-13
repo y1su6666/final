@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/top1.css">
-    <title>Document</title>
+    <title>慵懶日常條紋毛衣</title>
 </head>
 <body>
     <div class="array">
         <div class="item1">
             <div class="image">
-                <img src="../assets/image/tops/top1.jpg" class="img">
+                <img src="../assets/image/tops/top1.jpg" class="main_img" alt="main img">
             </div>
-            <div class="s_image">
+            <div class="small_image">
                 <img src="../assets/image/tops/top1.jpg" class="s_img">
                 <img src="../assets/image/tops/top1-1.jpg" class="s_img">
                 <img src="../assets/image/tops/top1-2.jpg" class="s_img">
@@ -24,10 +24,67 @@
             </div>
         </div>
         <div class="item2">
-            <h2>Title</h2>
-            <p>$450</p>
+            <h2>慵懶日常條紋毛衣✨</h2>
+            <p>NT$450</p>
+            <p>產品說明</p>
+            
+            <div class="color">
+                <select name="name" id="">
+                    <option value="choose"selected>請選擇顏色</option>
+                    <option value="white">白色</option>
+                    <option value="brown">駝色</option>
+                    <option value="black">黑色</option>
+                </select>
+            </div>
+            <div class="quantity">
+                <select name="name" id="">
+                    <option value="choose"selected>請選擇數量</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
+
+                </select>
+            </div>
         </div>
-        
     </div>
+    <div class="array1">
+        <div class="item3">
+            <h3>商品評論</h3>
+
+        </div>
+        <div class="item3">
+            <h3>商品評分</h3>
+
+        </div>
+    </div>
+    <div class="array">
+
+        <div class="item">
+            <div class="text">
+                
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">
+            </div>
+        </div>
+    </div>
+
 </body>
+<script>
+    const mainImage = document.getElementById('main_image');
+    const sImg = document.querySelectorAll('s_img');
+
+    // 对每个缩略图添加点击事件监听器
+    sImg.forEach(simg => {
+    simg.addEventListener('click', function() 
+    {
+    // 当点击缩略图时，更改主要图片的 src 为点击的缩略图的 src
+    mainImage.src = this.src;
+    });
+    });
+</script>
 </html>
