@@ -34,6 +34,8 @@ nav a:hover {
 
 .r {
     width: 30%;
+    float: right;
+    border-style: solid;
 }
 
 .icon {

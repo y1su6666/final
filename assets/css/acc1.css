@@ -72,9 +72,9 @@ nav a:hover {
 
 .text1,
 .price {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
-    font-family: 標楷體;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .color select {
@@ -90,11 +90,19 @@ nav a:hover {
     align-content: center;
 }
 
-.button {
+.click {
+    display: flex;
+}
+
+.button1,
+.button2 {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-content: center;
-    border-style: solid;
+    /*display: block;
+    margin: auto;*/
+    /*border-style: solid;*/
     margin-top: 30px;
 }
 
@@ -148,10 +156,16 @@ input:hover {
     margin: auto;
 }
 
-.title {
+.title-c {
     text-align: center;
     font-size: 25px;
-    line-height: 60px;
+    font-family: 標楷體;
+}
+
+.title-e {
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
 }
 
 .recommend {
