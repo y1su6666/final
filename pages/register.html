@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/js/register.js">
+    <link rel="stylesheet" href="../assets/css/register.css">
     <script src="register.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div class="container panel_active">
         <div class="formbox login">
@@ -15,9 +17,9 @@
                     <img src="../assets/image/member.png" class="img">
                     <h2 class="title">登入會員</h2>
                 </div>
-                <input type="text" placeholder="帳號" class="input"/>
-                <input type="password" placeholder="密碼" class="input"/>
-                <button class="btn">登入</button> 
+                <input type="text" placeholder="帳號" class="input" />
+                <input type="password" placeholder="密碼" class="input" />
+                <button class="btn">登入</button>
             </form>
         </div>
         <div class="formbox register">
@@ -26,11 +28,11 @@
                     <img src="../assets/image/member.png" class="img">
                     <h2 class="title">註冊會員</h2>
                 </div>
-                <input type="text" placeholder="帳號" class="input"/>
-                <input type="password" placeholder="密碼" class="input"/>
-                <button class="btn">註冊</button> 
-            </form> 
-        </div>          
+                <input type="text" placeholder="帳號" class="input" />
+                <input type="password" placeholder="密碼" class="input" />
+                <button class="btn">註冊</button>
+            </form>
+        </div>
         <div class="overlay_box">
             <div class="overlay">
                 <div class="panel over-left">
@@ -45,15 +47,16 @@
 
         </div>
     </div>
-    
+
 </body>
 <script>
-    const signInBtn=document.querySelector("signIn")
-    const signUpBtn=document.querySelector("signUp")
-    const container=document.querySelector(".container")
+    const signInBtn = document.querySelector("signIn")
+    const signUpBtn = document.querySelector("signUp")
+    const container = document.querySelector(".container")
 
-    signInBtn.addEventListener("click",()=>{container.classList.remove("panel-active")})
-    signUpBtn.addEventListener("click",()=>{container.classList.add("panel-active")})
+    signInBtn.addEventListener("click", () => { container.classList.remove("panel-active") })
+    signUpBtn.addEventListener("click", () => { container.classList.add("panel-active") })
 
 </script>
+
 </html>
