@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/js/register.js">
+    <script src="register.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container panel_active">
+        <div class="formbox login">
+            <form class="form" id="form2">
+                <div class="item">
+                    <img src="../assets/image/member.png" class="img">
+                    <h2 class="title">登入會員</h2>
+                </div>
+                <input type="text" placeholder="帳號" class="input"/>
+                <input type="password" placeholder="密碼" class="input"/>
+                <button class="btn">登入</button> 
+            </form>
+        </div>
+        <div class="formbox register">
+            <form class="form" id="form1">
+                <div class="item">
+                    <img src="../assets/image/member.png" class="img">
+                    <h2 class="title">註冊會員</h2>
+                </div>
+                <input type="text" placeholder="帳號" class="input"/>
+                <input type="password" placeholder="密碼" class="input"/>
+                <button class="btn">註冊</button> 
+            </form> 
+        </div>          
+        <div class="overlay_box">
+            <div class="overlay">
+                <div class="panel over-left">
+                    <h3 class="title">已經是會員！</h3>
+                    <button class="btn" id="signIn">立即登入</button>
+                </div>
+                <div class="panel over-right">
+                    <h3 class="title">還不是會員？</h3>
+                    <button class="btn" id="signUp">立即註冊</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<script>
+    const signInBtn=document.querySelector("signIn")
+    const signUpBtn=document.querySelector("signUp")
+    const container=document.querySelector(".container")
+
+    signInBtn.addEventListener("click",()=>{container.classList.remove("panel-active")})
+    signUpBtn.addEventListener("click",()=>{container.classList.add("panel-active")})
+
+</script>
+</html>
