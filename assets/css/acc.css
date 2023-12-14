@@ -1,0 +1,93 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.run {
+    font-family: 標楷體;
+}
+
+nav {
+    color: blueviolet;
+    text-align: left;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    font-family: 標楷體;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.list {
+    display: flex;
+}
+
+.l {
+    width: 60%;
+}
+
+.r {
+    width: 30%;
+}
+
+.icon {
+    height: 30px;
+}
+
+.img {
+    width: 80px;
+    border-style: solid;
+    height: 80px;
+}
+
+/*.title {
+    display: flex;
+}*/
+
+.title1 {
+    /*width: 60%;*/
+    /*float: left;*/
+    display: flex;
+    border-style: solid;
+}
+
+.icon1 {
+    width: 10%;
+    border-style: solid;
+    /*height: 30px;*/
+    /*float: right;*/
+}
+
+.text {
+    width: 50%;
+    font-size: 20px;
+    line-height: 10px;
+    font-family: 標楷體;
+    border-style: solid;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    width: 25%;
+    border-style: solid;
+}
