@@ -6,41 +6,57 @@ body{
     background-color: #edede9;
 }
 .array{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+   
 }
 .main_img{
     width: 400px;
     height: 400px;
-    justify-content: center ;
-    padding-left: 25%;
+    /*padding-left: 25%;*/
+    display: block;
+    margin: auto;
 
 }
 .item1{
-    width: 60%;
-    height: 600px;
-    padding: 15 10;
-    border-style: solid;
-
+    width: 40%;
+}
+.small_image{
+    /*margin-right: 25%;*/
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.s_img{
+    width:75px;
+    height: 75px;
 }
 .item2{
-    width:40%;
-    height:450px;
+    width:60%;
+    /*height:450px;*/
     padding: 15 10;
-    margin-top: 4%;
     line-height: 40px;
-    border-style: solid;
 }
-.color select,
-.quantity select {
+.item2_text{
+    margin-top: 4%;
+    text-align: left;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.title{
+    font-size: 25px;
+}
+.color select{
     color: #000000;
     margin: 15px;
     width: 250px;
     height: 3em;
     padding: 8px;
     position: relative;
+    display: block;
+    margin: auto;
     border-radius: 5px;
     appearance: none;
     -moz-appearance: none;
@@ -53,32 +69,62 @@ body{
   
 option {
     appearance: none;
-    background: #753a3a;
+    background: #d6ccc2;
     position: absolute;
 }
-.small_image{
-    padding-left: 25%;
-    margin-right: 25%;
+
+.click {
+    width: 100%;
+    display: flex;
+    
 }
-.s_img{
-    width:75px;
-    height: 75px;
+
+.button1,
+.button2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    /*display: block;
+    margin: auto;*/
+    /*border-style: solid;*/
+    margin-top: 30px;
+}
+input {
+    border: 0;
+    background-color:#8e8174;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px #d6ccc2 solid;
 }
 .array1{
     height:50px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:center;
+    margin-top: 2%;
 }
-.item3{
-    width: 375px;
-}
+.item3,
 .item4{
-    width:375px;
+    width: 45%;
+    text-align: center;
+    font-size: 25px;
 }
+
+
 .item{
-    width:400px;
+    width:30%;
     height: 350px;
     background-color: #d6ccc2;
     border-radius: 10px;
+}
+
+.array2{
+    display: flex;
+    justify-content: space-evenly;
 }
