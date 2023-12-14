@@ -1,5 +1,18 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 body {
-    background-color: bisque;
+    background-color: #edede9;
+}
+
+.hr {
+    size: 3px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    /*border-style: solid;*/
 }
 
 .run {
@@ -42,61 +55,98 @@ nav a:hover {
 
 .photo {
     height: 400px;
-    width: 450px;
-    padding-left: 10px;
+    width: 400px;
+    /*padding-left: 10px;*/
+    /*border-style: solid;*/
+    display: block;
+    margin: auto;
 }
 
 .imgs {
-    display: flex;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
 }
 
 .photos {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+    width: 75px;
+    height: 75px;
+    /*padding: 10px;*/
 }
 
 .page {
     display: flex;
+    width: 80%;
+    /*display: block;*/
+    margin: auto;
 }
 
 .page1 {
     width: 40%;
+    /*border-style: solid;*/
 }
 
 .page2 {
     width: 60%;
-    border-style: solid;
+    /*border-style: solid;*/
+    /*line-height: 30px;*/
+}
+
+.name {
+    text-align: left;
+    /*border-style: solid;*/
+    width: 50%;
+    display: block;
+    margin: auto;
     line-height: 80px;
+    /*margin-top: 4;*/
 }
 
 .text1,
 .price {
-    text-align: left;
+    /*text-align: center;*/
     font-size: 40px;
     font-family: 'Noto Serif TC', serif;
 }
 
+/*顏色選擇*/
 .color select {
-    justify-content: center;
-    background-color: antiquewhite;
-    border-style: solid;
+    color: #000000;
+    margin: 15px;
+    width: 250px;
+    height: 3em;
+    padding: 8px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -webkit-linear-gradient(white, white);
+    background-position: right 0.5em top 50%, 0 0;
+    background-size: contain, cover;
+    background-repeat: no-repeat, repeat;
 }
 
-.color {
-    /*border-style: solid;*/
-    display: flex;
-    justify-content: center;
-    align-content: center;
+option {
+    appearance: none;
+    background: #d6ccc2;
+    position: absolute;
 }
 
+/*顏色選擇結束*/
+
+/*按鈕元件*/
 .click {
     display: flex;
+    /*border-style: solid;*/
+    width: 100%;
 }
 
 .button1,
 .button2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -120,23 +170,58 @@ input:hover {
     border: 2px #003C9D solid;
 }
 
+/*按鈕元件結束*/
+
+.inform {
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+    background-color: #d6ccc2;
+}
+
+.informtext {
+    width: 20%;
+    display: block;
+    margin: auto;
+    font-family: 'Noto Serif TC', serif;
+    text-align: left;
+}
+
+/*推薦商品動畫*/
+.item1 img,
+.item2 img,
+.item3 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.item1 img:hover,
+.item2 img:hover,
+.item3 img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+/*推薦商品動畫結束*/
+
+.item1 p,
+.item2 p,
+.item3 p {
+    font-family: 'Noto Serif TC', serif;
+}
+
 .comment {
     /*background-color: blue;*/
     /*height: 100px;*/
+    /*height: 50px;*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     border-style: solid;
+    margin-top: 2%;
 }
 
-.memo1 {
-    width: 50%;
-    background-color: aliceblue;
-    border-style: solid;
-}
-
+.memo1,
 .memo2 {
-    width: 50%;
-    background-color: aliceblue;
+    width: 45%;
+    /*text-align: center;*/
     border-style: solid;
 }
 
@@ -145,6 +230,17 @@ input:hover {
     font-size: 30px;
     font-family: 標楷體;
     text-align: center;
+}
+
+.array {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.array1 {
+    width: 30%;
+    background-color: #d6ccc2;
+    border-radius: 10px;
 }
 
 .c1,
@@ -156,16 +252,22 @@ input:hover {
     margin: auto;
 }
 
+.rect {
+    width: 40%;
+    padding-left: 4%;
+}
+
 .title-c {
-    text-align: center;
-    font-size: 25px;
-    font-family: 標楷體;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .title-e {
-    text-align: center;
-    font-size: 15px;
+    text-align: left;
+    font-size: 25px;
     line-height: 50px;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .recommend {
@@ -187,7 +289,7 @@ input:hover {
 .item2,
 .item3 {
     width: 30%;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 .it1,
