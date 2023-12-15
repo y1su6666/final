@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #edede9;
+}
+.array{
+    width: 80%;
+    margin: auto;
+    display: flex;
+   
+}
+.main_img{
+    width: 400px;
+    height: 400px;
+    /*padding-left: 25%;*/
+    display: block;
+    margin: auto;
+
+}
+.item1{
+    width: 40%;
+}
+.small_image{
+    /*margin-right: 25%;*/
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.s_img{
+    width:75px;
+    height: 75px;
+}
+.item2{
+    width:60%;
+    /*height:450px;*/
+    padding: 15 10;
+    line-height: 40px;
+}
+.item2_text{
+    margin-top: 4%;
+    text-align: left;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.title{
+    font-size: 25px;
+}
+.color select{
+    color: #000000;
+    margin: 15px;
+    width: 250px;
+    height: 3em;
+    padding: 8px;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -webkit-linear-gradient(white, white);
+    background-position: right 0.5em top 50%, 0 0  ;
+    background-size: contain, cover;
+    background-repeat: no-repeat, repeat;
+  }
+  
+option {
+    appearance: none;
+    background: #d6ccc2;
+    position: absolute;
+}
+
+.click {
+    width: 100%;
+    display: flex;
+    
+}
+
+.button1,
+.button2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    /*display: block;
+    margin: auto;*/
+    /*border-style: solid;*/
+    margin-top: 30px;
+}
+input {
+    border: 0;
+    background-color:#8e8174;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px #d6ccc2 solid;
+}
+.array1{
+    height:50px;
+    display: flex;
+    justify-content:center;
+    margin-top: 2%;
+}
+.item3,
+.item4{
+    width: 45%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.item{
+    width:30%;
+    height: 350px;
+    background-color: #d6ccc2;
+    border-radius: 10px;
+}
+
+.array2{
+    display: flex;
+    justify-content: space-evenly;
+}

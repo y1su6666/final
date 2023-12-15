@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #edede9;
+}
+.array{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.item1{
+    width: 25%;
+    height: 30%;
+    padding: 15 10;
+}
+.item2{
+    width: 25%;
+    height: 30%;
+    padding: 15 10;
+}
+.item3{
+    width: 25%;
+    height: 30%;
+    padding: 15 10;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
