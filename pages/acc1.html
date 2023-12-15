@@ -33,6 +33,9 @@
             </nav>
         </div>
     </div>
+
+    <!--導覽列結束-->
+
     <div class="hr">
         <hr>
     </div>
@@ -65,7 +68,16 @@
                     <option value="blue">深藍色</option>
                 </select>
             </div>
+
             <br>
+            <!--數量鍵開始-->
+            <div class="num">
+                <input type="button" value="-" class="item_button" onclick="minus()">
+                <input type="text" value="1" class="item_num">
+                <input type="button" value="+" class="item_button" onclick="add()">
+            </div>
+            <!--數量鍵結束-->
+
             <div class="click">
                 <div class="button1">
                     <input type="button" value="加入購物車" name="按鈕名稱" style="width:150px;height:50px;">
@@ -78,13 +90,17 @@
     </div>
 
     <div class="inform">
+        <br>
         <p>-商品資訊-</p>
-        <hr size="3px" align="center" width="60%">
-        <div class="informtext">
+        <div class="hr1">
+            <hr>
+        </div>
+        <div class="informtext2">
             <p>顏色:白、杏、藍、綠、黑</p>
             <p>尺寸:Free size</p>
             <p>帽寬：約27cm ( 針織有彈性 )</p>
             <p>帽深：21cm</p>
+            <br>
         </div>
     </div>
     <div class="recommend">
@@ -106,8 +122,8 @@
             </div>
             <div class="item3">
                 <a href="#"><img src="../assets/image/acc2-1.jpg" class="it3"></a>
-                <p>XXX</p>
-                <p>$100</p>
+                <p>秋冬柔暖素面圍巾</p>
+                <p>$350</p>
             </div>
         </div>
     </div>
@@ -121,13 +137,17 @@
     </div>
     <div class="array">
         <div class="array1">
-            <textarea class="comment-place" rows="12" placeholder="Say Something..."></textarea>
+            <div class="textarea">
+                <textarea class="comment-place" rows="12" placeholder="Say Something..."></textarea>
+            </div>
             <div class="rating">
                 <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
                 <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
                 <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
                 <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
                 <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+            </div>
+            <div class="buttonsend">
                 <button type="submit" class="send">SEND</button>
             </div>
         </div>
@@ -145,6 +165,7 @@
         </div>
     </div>
     <script src="../assets/js/togglelmg.js"></script>
+    <script src="../assets/js/number.js"></script>
 </body>
 
 </html>

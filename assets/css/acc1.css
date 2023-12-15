@@ -7,14 +7,6 @@ body {
     background-color: #edede9;
 }
 
-.hr {
-    size: 3px;
-    display: block;
-    margin: auto;
-    width: 90%;
-    /*border-style: solid;*/
-}
-
 .run {
     font-family: 標楷體;
 }
@@ -51,6 +43,16 @@ nav a:hover {
 
 .icon {
     height: 30px;
+}
+
+/*導覽列結束*/
+
+.hr {
+    size: 3px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    /*border-style: solid;*/
 }
 
 .photo {
@@ -127,6 +129,7 @@ nav a:hover {
     background-position: right 0.5em top 50%, 0 0;
     background-size: contain, cover;
     background-repeat: no-repeat, repeat;
+    font-family: 'Noto Serif TC', serif;
 }
 
 option {
@@ -156,15 +159,16 @@ option {
     margin-top: 30px;
 }
 
-input {
+.click input {
     border: 0;
     background-color: #003C9D;
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
+    font-family: 'Noto Serif TC', serif;
 }
 
-input:hover {
+.click input:hover {
     color: #003C9D;
     background-color: #fff;
     border: 2px #003C9D solid;
@@ -172,13 +176,42 @@ input:hover {
 
 /*按鈕元件結束*/
 
+/*數量鍵開始*/
+.num {
+    text-align: center;
+}
+
+.num input {
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.item_button {
+    font-size: 25px;
+}
+
+.item_num {
+    font-size: 15px;
+    height: 30px;
+}
+
+/*數量鍵結束*/
+
 .inform {
     font-family: 'Noto Serif TC', serif;
     text-align: center;
     background-color: #d6ccc2;
 }
 
-.informtext {
+.hr1 {
+    size: 3px;
+    display: block;
+    margin: auto;
+    width: 60%;
+    /*border-style: solid;*/
+}
+
+.informtext2 {
     width: 20%;
     display: block;
     margin: auto;
@@ -214,7 +247,7 @@ input:hover {
     /*height: 50px;*/
     display: flex;
     justify-content: center;
-    border-style: solid;
+    /*border-style: solid;*/
     margin-top: 2%;
 }
 
@@ -222,13 +255,13 @@ input:hover {
 .memo2 {
     width: 45%;
     /*text-align: center;*/
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 .memo1 p,
 .memo2 p {
-    font-size: 30px;
-    font-family: 標楷體;
+    font-size: 25px;
+    font-family: 'Noto Serif TC', serif;
     text-align: center;
 }
 
@@ -241,6 +274,7 @@ input:hover {
     width: 30%;
     background-color: #d6ccc2;
     border-radius: 10px;
+    border-style: solid;
 }
 
 .c1,
@@ -304,13 +338,17 @@ input:hover {
 
 .comment-place {
     outline: none;
-    background-color: rgb(26, 26, 26);
+    background-color: #fff;
     border: 1px solid rgb(210, 210, 210);
     font-size: 15px;
     width: 60%;
     color: white;
     display: block;
     margin: auto;
+}
+
+.textarea {
+    margin-top: 7%;
 }
 
 .rating {
@@ -330,7 +368,7 @@ input:hover {
     width: 8%;
     margin-left: 2%;
     font-size: 28px;
-    color: rgb(210, 210, 210);
+    color: brown;
     cursor: pointer;
 }
 
@@ -351,4 +389,22 @@ input:hover {
 
 .rating:hover>input:checked~label:before {
     opacity: 0.4;
+}
+
+.buttonsend {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 3%;
+}
+
+.send {
+    font-family: 'Noto Serif TC', serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
