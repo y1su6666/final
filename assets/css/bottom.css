@@ -130,61 +130,80 @@ body {
     /*border-style: solid;*/
 }
 
-.text {
-    font-size: 30px;
-    font-family: 'Noto Serif TC', serif;
+/*導覽列結束*/
+
+hr {
+    width: 100%;
+    color: black;
+    padding-top: 3%;
+    /*padding-bottom: 3%;*/
 }
 
-/*同頁標籤切換*/
-.tab_css {
+
+.img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    /*border-style: solid;*/
+}
+
+.title1 {
+    /*width: 60%;*/
+    /*float: left;*/
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /*border-style: solid;*/
 }
 
-.tab_css input {
-    display: none
-}
-
-.tab_css label {
-    margin: 0 5px 5px 0;
-    padding: 10px 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    background: #999;
-    color: #fff;
-    opacity: 0.5;
-    font-family: 'Noto Serif TC', serif;
-}
-
-.tab_content {
-    order: 1;
-    display: none;
-    width: 80%;
-    background-color: #e9edc9;
-    border-bottom: 3px solid #ddd;
-    line-height: 1.6;
-    font-size: .9em;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-family: 'Noto Serif TC', serif;
-}
-
-.tab_css input:checked+label,
-.tab_css label:hover {
-    opacity: 1;
-    font-weight: bold;
-}
-
-.tab_css input:checked+label+.tab_content {
-    display: initial;
-}
-
-.buy {
+.icon1 {
     width: 10%;
-    border-style: solid;
+    /*border-style: solid;*/
+    /*height: 30px;*/
+    /*float: right;*/
 }
 
+.text {
+    width: 50%;
+    font-size: 20px;
+    /*line-height: 10%;*/
+    font-family: 'Noto Serif TC', serif;
+    /*border-style: solid;*/
+}
 
-/*同頁標籤切換結束*/
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    width: 25%;
+    /*border-style: solid;*/
+}
+
+.photo1 p,
+.photo2 p,
+.photo3 p {
+    font-family: 'Noto Serif TC', serif;
+}
+
+/*.photo1 img,
+.photo2 img,
+.photo3 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.photo1 img:hover,
+.photo2 img:hover,
+.photo3 img:hover {
+    transform: scale(1.2, 1.2);
+}*/
