@@ -36,28 +36,25 @@
     <div class="text">
         <p>會員資訊</p>
     </div>
-
-    <div>
-        <!--<input type="radio" id="memberid" name="member">
-        <label for="memberid">會員資訊</label>
-        <div class="container">
-            <div class="name">
-            </div>
+    <div id="tab-demo">
+        <ul class="tab-title">
+            <li><a href="#tab01">tab01</a></li>
+            <li><a href="#tab02">tab02</a></li>
+            <li><a href="#tab03">tab03</a></li>
+        </ul>
+        <div id="tab01" class="tab-inner">
+            <p>tab01的內容</p>
         </div>
-        <input type="radio" id="history" name="member">
-        <label for="history">訂單資訊</label>-->
-        <button onclick="changeContent()">會員資訊</button>
-        <div id="content">
-            <p>初始內容</p>
+        <div id="tab02" class="tab-inner">
+            <p>tab02的內容</p>
         </div>
-
-        <button onclick="changeContent()">會員資訊</button>
-        <div id="content">
-            <p>初始內容</p>
+        <div id="tab03" class="tab-inner">
+            <p>tab03的內容</p>
         </div>
-
-        <script src="../assets/js/member.js"></script>
     </div>
+
+    <script src="../assets/js/member.js"></script>
+
 </body>
 
 </html>

@@ -8,52 +8,148 @@ body {
 }
 
 .run {
-    font-family: 標楷體;
+    font-family: 'Noto Serif TC', serif;
+    background-color: #778da9;
 }
 
-nav {
-    color: blueviolet;
-    text-align: left;
-    padding: 20px;
+.l img {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
-nav a {
-    color: black;
-    display: inline-block;
-    font-family: 標楷體;
-    margin-right: 20px;
-    margin-left: 20px;
+.ctu {
+    /*border-style: solid;*/
+    width: 30%;
+    display: block;
+    margin: auto;
 }
 
-nav a:hover {
-    color: blue;
+.nav-title {
+    /*border-style: solid;*/
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* border: 2px solid darkcyan; */
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    width: 20%;
+}
+
+.nav-name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-name>li {
+    float: left;
+}
+
+.nav-title li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-title ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* name漂浮改變顏色 */
+.nav-name>li>a:hover {
+    color: #C0A06A;
+}
+
+.subname li a {
+    background-color: wheat;
+    /* subname的標題 */
+    border: 0.1px solid gray;
+    line-height: 70px;
+}
+
+.subname li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.nav-name a {
+    text-decoration: none;
+    color: inherit;
+    /* background-color: blue; */
+    /* width: 300px; */
+    /* border: 2px solid rgb(123, 47, 47); */
+    display: block;
+    line-height: 100px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.nav-name ul {
+    display: none;
+    /* subname總框架 */
+}
+
+.nav-name .name:hover ul {
+    display: block;
 }
 
 .list {
     display: flex;
+    /*border-style: solid;*/
 }
 
 .l {
     width: 60%;
+    display: flex;
+    /*border-style: solid;*/
 }
 
 .r {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.iconall {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    /*border-style: solid;*/
+    width: 100%;
 }
 
 .icon {
     height: 30px;
+    /*border-style: solid;*/
 }
 
 /*導覽列結束*/
 
-.hr {
+hr {
+    width: 100%;
+    color: black;
+    /*padding-top: 3%;*/
+    /*padding-bottom: 3%;*/
+}
+
+
+/*導覽列結束*/
+
+/*.inform .hr {
     size: 3px;
     display: block;
     margin: auto;
     width: 90%;
-    /*border-style: solid;*/
-}
+    color: black;
+    border-style: solid;
+}*/
 
 .photo {
     height: 400px;
@@ -81,6 +177,7 @@ nav a:hover {
     width: 80%;
     /*display: block;*/
     margin: auto;
+    padding-top: 3%;
 }
 
 .page1 {
@@ -204,7 +301,6 @@ option {
 }
 
 .hr1 {
-    size: 3px;
     display: block;
     margin: auto;
     width: 60%;
@@ -274,21 +370,57 @@ option {
     width: 30%;
     background-color: #d6ccc2;
     border-radius: 10px;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
-.c1,
-.c2,
-.c3 {
-    width: 30%;
-    border-style: solid;
+.c1 {
+    width: 80%;
+    /*border-style: solid;*/
     display: block;
     margin: auto;
+    margin-top: 12%;
+    margin-right: 3%;
+}
+
+.ctop {
+    display: flex;
+}
+
+.pro {
+    width: 30%;
+}
+
+.star {
+    width: 30%;
+}
+
+.date {
+    width: 30%;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.c1-1 p {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.profile {
+    width: 20px;
+    height: 20px;
 }
 
 .rect {
     width: 40%;
     padding-left: 4%;
+}
+
+.rect hr {
+    size: 3px;
+    text-align: left;
+    width: 60%;
 }
 
 .title-c {
@@ -336,19 +468,42 @@ option {
     margin: auto;
 }
 
+.send-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    /* border: 2px solid rgb(96, 205, 90); */
+}
+
+.input-name {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    width: 60%;
+    margin-bottom: 4%;
+    outline: none;
+    font-size: 15px;
+    color: black;
+    /* border: 2px solid rgb(142, 90, 205); */
+}
+
+
+/*評分*/
 .comment-place {
     outline: none;
     background-color: #fff;
     border: 1px solid rgb(210, 210, 210);
     font-size: 15px;
     width: 60%;
-    color: white;
+    color: black;
     display: block;
     margin: auto;
 }
 
 .textarea {
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .rating {
@@ -407,4 +562,21 @@ option {
     padding-right: 6%;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+/*評分結束*/
+
+footer {
+    text-align: center;
+    background-color: #84a98c;
+    height: 80px;
+    margin-top: 3%;
+}
+
+.footerlogo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
 }

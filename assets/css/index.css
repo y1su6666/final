@@ -1,43 +1,249 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 body {
-    background-color: blanchedalmond;
+    background-color: #edede9;
 }
 
 .run {
-    font-family: 標楷體;
+    font-family: 'Noto Serif TC', serif;
+    background-color: #778da9;
 }
 
-nav {
-    color: blueviolet;
-    text-align: left;
-    padding: 20px;
+.l img {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
-nav a {
-    color: black;
-    display: inline-block;
-    font-family: 標楷體;
-    margin-right: 20px;
-    margin-left: 20px;
+.ctu {
+    /*border-style: solid;*/
+    width: 30%;
+    display: block;
+    margin: auto;
 }
 
-nav a:hover {
-    color: blue;
+.nav-title {
+    /*border-style: solid;*/
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* border: 2px solid darkcyan; */
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    width: 20%;
+}
+
+.nav-name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-name>li {
+    float: left;
+}
+
+.nav-title li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-title ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* name漂浮改變顏色 */
+.nav-name>li>a:hover {
+    color: #C0A06A;
+}
+
+.subname li a {
+    background-color: wheat;
+    /* subname的標題 */
+    border: 0.1px solid gray;
+    line-height: 70px;
+}
+
+.subname li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.nav-name a {
+    text-decoration: none;
+    color: inherit;
+    /* background-color: blue; */
+    /* width: 300px; */
+    /* border: 2px solid rgb(123, 47, 47); */
+    display: block;
+    line-height: 100px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.nav-name ul {
+    display: none;
+    /* subname總框架 */
+}
+
+.nav-name .name:hover ul {
+    display: block;
 }
 
 .list {
     display: flex;
+    /*border-style: solid;*/
 }
 
 .l {
     width: 60%;
+    display: flex;
+    /*border-style: solid;*/
 }
 
 .r {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.iconall {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    /*border-style: solid;*/
+    width: 100%;
 }
 
 .icon {
     height: 30px;
+    /*border-style: solid;*/
 }
 
 /*導覽列結束*/
+
+hr {
+    width: 100%;
+    color: black;
+    padding-top: 3%;
+    /*padding-bottom: 3%;*/
+}
+
+/*輪播圖開始*/
+
+/* 最外層的div 包起來 */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
+.singleSlide {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* 先給他absolute的位置，再用top來置中 */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    border: transparent solid 1px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 15px;
+    color: black;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    border: transparent solid 1px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 15px;
+    color: black;
+}
+
+/* on Hover, 靠上去的時候會有變化 */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white !important;
+}
+
+/* 小標題 */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* 淡入淡出 特效*/
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*輪播圖結束*/
+
+.title-c {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.title-e {
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #84a98c;
+    height: 80px;
+    margin-top: 3%;
+}
+
+.footerlogo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+}

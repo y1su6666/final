@@ -1,65 +1,162 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
 body {
-    background-color: blanchedalmond;
+    background-color: #edede9;
 }
 
 .run {
-    font-family: 標楷體;
+    font-family: 'Noto Serif TC', serif;
+    background-color: #778da9;
 }
 
-nav {
-    color: blueviolet;
-    text-align: left;
-    padding: 20px;
+.l img {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
-nav a {
-    color: black;
-    display: inline-block;
-    font-family: 標楷體;
-    margin-right: 20px;
-    margin-left: 20px;
+.ctu {
+    /*border-style: solid;*/
+    width: 30%;
+    display: block;
+    margin: auto;
 }
 
-nav a:hover {
-    color: blue;
+.nav-title {
+    /*border-style: solid;*/
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* border: 2px solid darkcyan; */
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    width: 20%;
+}
+
+.nav-name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-name>li {
+    float: left;
+}
+
+.nav-title li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-title ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* name漂浮改變顏色 */
+.nav-name>li>a:hover {
+    color: #C0A06A;
+}
+
+.subname li a {
+    background-color: wheat;
+    /* subname的標題 */
+    border: 0.1px solid gray;
+    line-height: 70px;
+}
+
+.subname li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.nav-name a {
+    text-decoration: none;
+    color: inherit;
+    /* background-color: blue; */
+    /* width: 300px; */
+    /* border: 2px solid rgb(123, 47, 47); */
+    display: block;
+    line-height: 100px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.nav-name ul {
+    display: none;
+    /* subname總框架 */
+}
+
+.nav-name .name:hover ul {
+    display: block;
 }
 
 .list {
     display: flex;
+    /*border-style: solid;*/
 }
 
 .l {
     width: 60%;
+    display: flex;
+    /*border-style: solid;*/
 }
 
 .r {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.iconall {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    /*border-style: solid;*/
+    width: 100%;
 }
 
 .icon {
     height: 30px;
+    /*border-style: solid;*/
 }
+
+/*導覽列結束*/
+
+hr {
+    width: 100%;
+    color: black;
+    padding-top: 3%;
+    /*padding-bottom: 3%;*/
+}
+
 
 .img {
-    width: 80px;
-    border-style: solid;
-    height: 80px;
+    width: 60%;
+    display: block;
+    margin: auto;
+    /*border-style: solid;*/
 }
-
-/*.title {
-    display: flex;
-}*/
 
 .title1 {
     /*width: 60%;*/
     /*float: left;*/
     display: flex;
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 .icon1 {
     width: 10%;
-    border-style: solid;
+    /*border-style: solid;*/
     /*height: 30px;*/
     /*float: right;*/
 }
@@ -67,9 +164,9 @@ nav a:hover {
 .text {
     width: 50%;
     font-size: 20px;
-    line-height: 10px;
-    font-family: 標楷體;
-    border-style: solid;
+    /*line-height: 10%;*/
+    font-family: 'Noto Serif TC', serif;
+    /*border-style: solid;*/
 }
 
 .photo {
@@ -89,5 +186,24 @@ nav a:hover {
 .photo2,
 .photo3 {
     width: 25%;
-    border-style: solid;
+    /*border-style: solid;*/
 }
+
+.photo1 p,
+.photo2 p,
+.photo3 p {
+    font-family: 'Noto Serif TC', serif;
+}
+
+/*.photo1 img,
+.photo2 img,
+.photo3 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.photo1 img:hover,
+.photo2 img:hover,
+.photo3 img:hover {
+    transform: scale(1.2, 1.2);
+}*/
