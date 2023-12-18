@@ -100,6 +100,12 @@ body {
     display: block;
 }
 
+.subname {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
 .list {
     display: flex;
     /*border-style: solid;*/
@@ -181,8 +187,48 @@ body {
     display: initial;
 }
 
+.tab_dd {
+    background-color: #bcb8b1;
+    display: block;
+    margin: auto;
+    /*border-radius: 5%;*/
+    /*border-style: solid;*/
+}
+
+.ddid {
+    width: 50%;
+    text-align: left;
+    /*border-style: solid;*/
+}
+
+.state {
+    width: 50%;
+    text-align: right;
+    /*border-style: solid;*/
+}
+
+.tab_title,
+.tab_items {
+    display: flex;
+}
+
+.tab_name {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-style: solid;
+}
+
+.tab_img {
+    width: 20%;
+    /*border-style: solid;*/
+}
+
 .buy {
-    width: 10%;
+    height: 100px;
+    margin-top: 3%;
+    margin-left: 3%;
     border-style: solid;
 }
 

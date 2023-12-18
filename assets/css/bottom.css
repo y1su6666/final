@@ -100,6 +100,12 @@ body {
     display: block;
 }
 
+.subname {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
 .list {
     display: flex;
     /*border-style: solid;*/
