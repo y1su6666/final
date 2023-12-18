@@ -96,6 +96,12 @@ body {
     /* subname總框架 */
 }
 
+.subname {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
 .nav-name .name:hover ul {
     display: block;
 }
@@ -191,7 +197,7 @@ img {
     color: white !important;
 }
 
-/* 小標題 */
+/* 小標題
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -201,7 +207,7 @@ img {
     width: 100%;
     text-align: center;
 }
-
+ */
 /* 淡入淡出 特效*/
 .fade {
     animation-name: fade;

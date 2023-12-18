@@ -105,6 +105,12 @@ body {
     /*border-style: solid;*/
 }
 
+.subname {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
 .l {
     width: 60%;
     display: flex;
