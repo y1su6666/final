@@ -2,19 +2,14 @@
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 
 body {
-    background-color: #edede9;
-=======
-body{
-    display: flex;
-    width:100vw;
-    height:100vh;
+    /*display: flex;*/
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
     background-image: url(../image/background.jpeg);
     background-size: cover;
->>>>>>> c23a50a0e6f8261995394958e3902ceecbef7e09
 }
 
 .run {
@@ -208,6 +203,7 @@ body{
     font-weight: 300;
     margin: 0;
     margin-bottom: 1.25rem;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .input {
@@ -231,6 +227,7 @@ body{
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .form>.btn {
