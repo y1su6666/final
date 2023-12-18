@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 
 body {
     background-color: #edede9;
+=======
+body{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    background-image: url(../image/background.jpeg);
+    background-size: cover;
+>>>>>>> c23a50a0e6f8261995394958e3902ceecbef7e09
 }
 
 .run {
