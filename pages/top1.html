@@ -49,6 +49,27 @@
 
                     </select>
                 </div>-->
+                <div class="quantity">
+                    <input type="button" vallue="-" class="item_button" onclick="minus()">
+                    <input type="text" vallue="1" class="item_num">
+                    <input type="button" vallue="+" class="item_button" onclick="add()">
+                    <script>
+                        function minus(num){
+                            var number=Number(document.getElementsByClassName("item_num")[1].value);
+                            if(number>1){
+                                number-=1;
+                                document.getElementsByClassName("item_num")[1].value=number;
+                            }else window.alert("商品數量不得少於1");
+                        }
+                        function add(num){
+                            var number=Number(document.getElementsByClassName("item_num")[1].value);
+                            if(number<100){
+                                number+=1;
+                                document.getElementsByClassName("item_num")[1].value=number;
+                            }else window.alert("商品數量不得超果100");
+                        }
+                    </script>
+                </div>
             <div class="click">
                 <div class="button1">
                     <input type="button" value="加入購物車" name="按鈕名稱" style="width:150px;height:50px;">

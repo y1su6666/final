@@ -90,7 +90,7 @@ option {
     /*border-style: solid;*/
     margin-top: 30px;
 }
-input {
+.click input {
     border: 0;
     background-color:#8e8174;
     color: #fff;
