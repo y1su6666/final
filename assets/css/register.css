@@ -7,7 +7,7 @@ body{
     width:100vw;
     height:100vh;
     overflow: hidden;
-    background-image: url(../assets/image/background.jpeg);
+    background-image: url(../image/background.jpeg);
     background-size: cover;
 }
 .container{
