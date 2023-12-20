@@ -6,7 +6,10 @@
 body {
     background-color: #edede9;
 }
-
+.icon{
+    width: 20px;
+    height: 20px;
+}
 .run {
     font-family: 'Noto Serif TC', serif;
     background-color: #778da9;
