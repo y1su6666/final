@@ -50,6 +50,9 @@
 
     <hr>
     <!--導覽列結束-->
+    <div class="step">
+        <img src="../assets/image/step1.png" class="stepimg">
+    </div>
     <div id="app">
         <div class="container">
             <div class="item_header">
@@ -62,17 +65,24 @@
             <div class="item_container" v-for="(item, index) in itemList" :key="item.id">
                 <div class="item_header item_body">
                     <div class="item_detail">
-                        <img v-bind:src="item.imgUrl" alt="">
-                        <div class="name">{{item.itemName}}</div>
+                        <img src="../assets/image/acc1-1.jpg" alt="">
+                        <div class="name">Pleasure毛帽</div>
                     </div>
-
-                    <div class="price"><span>$</span>{{item.price}}</div>
+                  
+                    <div class="price"><span>NT$</span> 250</div>
+                    <div class="num">
+                        <input type="button" value="-" class="item_button" onclick="minus()">
+                        <input type="text" value="4" class="item_num">
+                        <input type="button" value="+" class="item_button" onclick="add()">
+                    </div>
+                    <!--
                     <div class="count">
                         <button @click="handleSub(item)">-</button>
                         {{item.count}}
                         <button @click="handlePlus(item)">+</button>
                     </div>
-                    <div class="amount">{{item.price * item.count}}</div>
+                -->
+                    <div class="amount">NT$ 1000</div>
                     <div class="operate">
                         <button @click="handledelete(index)">刪除</button>
                     </div>
@@ -81,6 +91,42 @@
 
 
         </div>
+    </div>
+    <br>
+    <div class="hrcontainer">
+        <hr class="line">
+    </div>
+    <br>
+    <div class="total">
+        <div class="item">
+            <div class="price1">
+                <p>小計：</p><br>
+                <p>運費：</p>
+            </div>
+            <div class="price2">
+                <p>NT$ 1000</p><br>
+                <p>NT$ 60</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="hrcontainer1">
+        <hr class="line1">
+    </div>
+    <br>
+    <div class="total">
+        <div class="item">
+            <div class="price1">
+                <p>合計： </p>
+            </div>
+            <div class="price2">
+                <p>NT$ 1060</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="checkout">
+        <button class="btn" id="checkout">前往結賬</button>
     </div>
 </body>
 <script src="main.js"></script>
