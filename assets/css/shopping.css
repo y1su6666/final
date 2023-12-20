@@ -11,13 +11,16 @@ body {
     font-family: 'Noto Serif TC', serif;
     background-color: #778da9;
 }
-.step{
+
+.step {
     display: flex;
     justify-content: center;
 }
-.stepimg{
+
+.stepimg {
     width: 50%;
 }
+
 .l img {
     display: block;
     margin: auto;
@@ -111,6 +114,7 @@ body {
     position: absolute;
     z-index: 2;
 }
+
 .num {
     text-align: center;
 }
@@ -120,18 +124,21 @@ body {
     width: 35px;
     font-family: 'Noto Serif TC', serif;
 }
-.input text{
+
+.input text {
     height: 30px;
     width: 50px;
 }
 
-.item_button{
+.item_button {
     font-size: 10px;
     width: 5px;
 }
-.delete{
+
+.delete {
     width: 40px;
 }
+
 .item_num {
     font-size: 15px;
     height: 30px;
@@ -208,44 +215,51 @@ body {
     margin-left: 100px;
     margin-top: 20px;
 }
-.hrcontainer{
+
+.hrcontainer {
     display: flex;
     justify-content: center;
 }
-.line{
+
+.line {
     border: none;
     width: 80%;
     border-top: 2px solid #000;
 }
-.total{
+
+.total {
     width: 85%;
     display: flex;
     justify-content: right;
 }
-.item{
+
+.item {
     width: 30%;
     display: flex;
     justify-content: space-around;
 }
 
-.hrcontainer1{
+.hrcontainer1 {
     display: flex;
     width: 83%;
     justify-content: right;
 }
-.line1{
+
+.line1 {
     border: none;
     width: 25%;
     border-top: 2px solid #949494;
 }
-.checkout{
+
+.checkout {
     display: flex;
     width: 83%;
     justify-content: right;
 }
+
 .btn {
     background-color: #9a8c98;
-    width: 300px;
+    width: 25%;
     height: 30px;
     border-radius: 5px;
     border: none;

@@ -575,14 +575,32 @@ option {
 footer {
     text-align: center;
     background-color: #84a98c;
-    height: 30px;
+    height: 100px;
     margin-top: 3%;
+}
+
+.last_title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+}
+
+.last_title p {
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+}
+
+footer hr {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 .last {
     width: 50%;
     display: block;
     margin: auto;
+    padding-top: 2%;
 }
 
 .last a {
