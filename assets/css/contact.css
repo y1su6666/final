@@ -144,3 +144,37 @@ hr {
     padding-top: 3%;
     /*padding-bottom: 3%;*/
 }
+
+.img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    /*border-style: solid;*/
+}
+
+.title1 {
+    display: flex;
+    margin-top: 1%;
+}
+
+.icon1 {
+    width: 10%;
+    /*border-style: solid;*/
+    /*height: 30px;*/
+    /*float: right;*/
+}
+
+.text {
+    width: 50%;
+    font-size: 20px;
+    /*line-height: 10%;*/
+    font-family: 'Noto Serif TC', serif;
+}
+
+.contact {
+    background-color: indianred;
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}

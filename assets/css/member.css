@@ -136,8 +136,29 @@ body {
     /*border-style: solid;*/
 }
 
+.img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    /*border-style: solid;*/
+}
+
+.title1 {
+    display: flex;
+    margin-top: 3%;
+}
+
+.icon1 {
+    width: 10%;
+    /*border-style: solid;*/
+    /*height: 30px;*/
+    /*float: right;*/
+}
+
 .text {
-    font-size: 30px;
+    width: 50%;
+    font-size: 20px;
+    /*line-height: 10%;*/
     font-family: 'Noto Serif TC', serif;
 }
 
@@ -187,8 +208,20 @@ body {
     display: initial;
 }
 
+.mem_title {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 .mem_inform {
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.input text {
+    color: black;
 }
 
 .inform,
@@ -199,11 +232,10 @@ body {
 
 
 .tab_dd {
-    background-color: #bcb8b1;
+    /*background-color: #bcb8b1;*/
     display: block;
     margin: auto;
-    /*border-radius: 5%;*/
-    /*border-style: solid;*/
+    border-style: solid;
 }
 
 .ddid {
@@ -264,6 +296,90 @@ body {
     text-align: right;
     font-size: 20px;
     /*border-style: solid;*/
+}
+
+.his_title {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.his_name {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.history {
+    display: flex;
+    border-style: solid;
+}
+
+.buy1 {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.his1 {
+    width: 20%;
+    padding-top: 2%;
+    padding-left: 2%;
+    border-style: solid;
+}
+
+.his_input {
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    /*padding-right: 3%;
+    padding-left: 6%;*/
+    border-style: solid;
+}
+
+/*.his_input p {
+    display: block;
+    margin: auto;
+}*/
+
+.txt_1 {
+    width: 50%;
+    text-align: center;
+    border-style: solid;
+}
+
+.txt_2 {
+    width: 10%;
+    text-align: center;
+    border-style: solid;
+}
+
+.txt_3 {
+    width: 20%;
+    text-align: center;
+    border-style: solid;
+}
+
+.tab_items1 {
+    padding-left: 3%;
+    width: 100%;
+    border-style: solid;
+}
+
+.tab_img1 {
+    width: 20%;
+    padding-left: 3%;
+}
+
+.tab_name4,
+.tab_name5,
+.tab_name6 {
+    width: 30%;
+    font-size: 20px;
+    padding-left: 5%;
 }
 
 /*同頁標籤切換結束*/
