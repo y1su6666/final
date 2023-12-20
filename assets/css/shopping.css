@@ -117,16 +117,21 @@ body {
 
 .num input {
     text-align: center;
-    width: 45px;
-    height: 20px;
+    width: 35px;
     font-family: 'Noto Serif TC', serif;
+}
+.input text{
+    height: 30px;
+    width: 50px;
 }
 
 .item_button{
     font-size: 10px;
     width: 5px;
 }
-
+.delete{
+    width: 40px;
+}
 .item_num {
     font-size: 15px;
     height: 30px;
@@ -213,7 +218,7 @@ body {
     border-top: 2px solid #000;
 }
 .total{
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: right;
 }
@@ -225,7 +230,7 @@ body {
 
 .hrcontainer1{
     display: flex;
-    width: 80%;
+    width: 83%;
     justify-content: right;
 }
 .line1{
@@ -235,7 +240,7 @@ body {
 }
 .checkout{
     display: flex;
-    width: 80%;
+    width: 83%;
     justify-content: right;
 }
 .btn {
