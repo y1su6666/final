@@ -9,7 +9,8 @@ body {
 
 .run {
     font-family: 'Noto Serif TC', serif;
-    background-color: #778da9;
+    background-color: #d6ccc2;
+    color: #534d3e;
 }
 
 .l img {
@@ -188,7 +189,7 @@ body {
     order: 1;
     display: none;
     width: 80%;
-    background-color: #e9edc9;
+    background-color: #ecdbd0;
     border-bottom: 3px solid #ddd;
     line-height: 1.6;
     font-size: .9em;
@@ -217,7 +218,11 @@ body {
 .mem_inform {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+}
+
+.mem_inform1 {
+    justify-content: center;
+    margin-right: 40%;
 }
 
 .input text {

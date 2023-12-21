@@ -574,7 +574,7 @@ option {
 
 footer {
     text-align: center;
-    background-color: #84a98c;
+    background-color: #d6ccc2;
     height: 100px;
     margin-top: 3%;
 }
@@ -582,7 +582,7 @@ footer {
 .last_title {
     margin-top: 1%;
     margin-bottom: 1%;
-    border-style: solid;
+
 }
 
 .last_title p {
@@ -594,6 +594,7 @@ footer hr {
     width: 80%;
     display: block;
     margin: auto;
+    border-color: #dcd9cd;
 }
 
 .last {
