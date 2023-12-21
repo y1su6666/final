@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/member.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/image/icon.PNG" type="icon">
+
 </head>
 
 <body>
@@ -303,7 +305,31 @@
     </div>
 
     <script src="../assets/js/member.js"></script>
+    <div id="map"></div>
 
+    <script>
+        // 初始化地圖
+        function initMap() {
+          // 中原大學資訊管理學系的經緯度座標
+          var cyutLocation = { lat: 24.785154, lng: 120.999838 };
+    
+          // 在地圖上建立一個地圖
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 17, // 地圖縮放級別
+            center: cyutLocation // 中央位置
+          });
+    
+          // 在地圖上建立一個標記（marker）
+          var marker = new google.maps.Marker({
+            position: cyutLocation,
+            map: map,
+            title: '中原大學資訊管理學系' // 標記的標題
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ctHcKk4jtlIz0Bzvf-jVPwRB6odqluA&callback=initMap">
+      </script>
 </body>
 
 </html>

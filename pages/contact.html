@@ -8,6 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/image/icon.PNG" type="icon">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ctHcKk4jtlIz0Bzvf-jVPwRB6odqluA&callback=console.debug&libraries=maps,marker&v=beta"></script>
+        <style>
+        /* 設置地圖容器的寬度和高度 */
+        #map {
+          height: 300px;
+          width: 30%;
+        }
+        </style>
 </head>
 
 <body>
@@ -69,8 +78,23 @@
         </div>
 
     </div>
+    <div id="app" class="container">
+        <div class="row">
+          <div class="col">
+            <div id="map" class="embed-responsive embed-responsive-16by9"></div>
+          </div>
+        </div>
+      </div> 
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ctHcKk4jtlIz0Bzvf-jVPwRB6odqluA&callback=initMap">
+      </script>
+      <button type="button" class="btn btn-outline-secondary"
+      v-for="f in features" @click="openInfoWindows(f.properties.id)"
+    >
+      {{ f.properties.name }}
+    </button>
     <script src="../assets/js/contact.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <script async defer src="../assets/js/map.js"></script>
 </body>
 
 </html>
