@@ -31,3 +31,12 @@ function plusSlides(a) {
 }
 //使用者點擊左右按鈕時，並傳入參數1或-1，代表下一張或上一張
 plusSlides(slideIndex);
+
+document.getElementById('showSearchBtn').addEventListener('click', function() {
+  var searchContainer = document.getElementById('searchContainer');
+  if (searchContainer.style.display === 'none' || searchContainer.style.display === '') {
+      searchContainer.style.display = 'flex';
+  } else {
+      searchContainer.style.display = 'none';
+  }
+});

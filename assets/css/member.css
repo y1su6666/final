@@ -67,11 +67,11 @@ body {
 
 /* name漂浮改變顏色 */
 .nav-name>li>a:hover {
-    color: #C0A06A;
+    color: #c4b793;
 }
 
 .subname li a {
-    background-color: wheat;
+    background-color: #e0e1dd;
     /* subname的標題 */
     border: 0.1px solid gray;
     line-height: 70px;
@@ -189,7 +189,7 @@ body {
     order: 1;
     display: none;
     width: 80%;
-    background-color: #ecdbd0;
+    background-color: #adb5bd;
     border-bottom: 3px solid #ddd;
     line-height: 1.6;
     font-size: .9em;
@@ -241,6 +241,7 @@ body {
     display: block;
     margin: auto;
     border-style: solid;
+    border-color: #edede9;
 }
 
 .ddid {
@@ -388,3 +389,7 @@ body {
 }
 
 /*同頁標籤切換結束*/
+
+.tab-content {
+    display: none;
+}
