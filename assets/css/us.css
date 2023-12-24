@@ -182,7 +182,7 @@ body {
     position: relative;
     width: 285px;
     height: 190px;
-    border: 1px solid red;
+    border: 1px solid;
     margin: 15px;
     perspective: 600px;
 }
@@ -236,7 +236,7 @@ body {
 
 .intro {
     display: flex;
-    border-style: solid;
+    /*border-style: solid;*/
     justify-content: space-between;
 }
 

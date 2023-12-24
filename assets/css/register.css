@@ -216,12 +216,17 @@ body {
     font-family: 'Noto Serif TC', serif;
 }
 
+.input_all {
+    border-style: solid;
+}
+
 .input {
     background-color: #fff;
     border: none;
     padding: 0.9rem 0.9rem;
     margin: 0.5rem 0;
     width: 100%;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .btn {
