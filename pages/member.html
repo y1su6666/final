@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="../assets/css/member.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/image/icon.PNG" type="icon">
-
+    <style>
+        .mem_inform1 p{
+            display: flex;
+            align-items: center;
+        }
+        input[type="text"], input[type="password"], input[type="email"]{
+            display: block !important;
+            border:none;
+            outline: none;
+            border-bottom: 1px #333 solid;
+            background-color: transparent;
+            padding: 3px ;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,7 +85,7 @@
             </div>
             <div class="mem_inform">
                 <div class="mem_inform1">
-                    <p>會員姓名:AAAAA</p>
+                    <p>會員姓名: <input type="text" value="AAAAAA" /> </p>
                     <p>會員生日:</p>
                     <p>會員電話:</p>
                     <p>電子郵件:</p>
