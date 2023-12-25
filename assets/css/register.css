@@ -145,8 +145,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 758px;
-    height: 420px;
+    max-width: 1000px;
+    height: 100%;
     position: relative;
     margin: auto;
     margin-top: 3%;
@@ -161,7 +161,7 @@ body {
     top: 0;
     transition: all 0.6s ease-in-out;
     border-radius: 10px;
-    /*border-style: solid;*/
+   /*border-style: solid;*/
 }
 
 .forget {
@@ -222,7 +222,16 @@ body {
     margin: 0.5rem 0;
     width: 100%;
 }
-
+.sex{
+    width: 105%;
+    text-align:  left;
+    margin: 0.5rem 0;
+}
+.birthday{
+    width: 105%;
+    text-align:  left;
+    margin: 0.5rem 0;
+}
 .btn {
     background-color: #9a8c98;
     width: 100px;
