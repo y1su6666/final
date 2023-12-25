@@ -217,7 +217,7 @@ body {
 }
 
 .input_all {
-    border-style: solid;
+    /*border-style: solid;*/
 }
 
 .input {
@@ -225,7 +225,7 @@ body {
     border: none;
     padding: 0.9rem 0.9rem;
     margin: 0.5rem 0;
-    width: 100%;
+    width: 90%;
     font-family: 'Noto Serif TC', serif;
 }
 .sex{
