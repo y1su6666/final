@@ -1,0 +1,141 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #edede9;
+}
+.icon{
+}
+.run {
+    font-family: 'Noto Serif TC', serif;
+    background-color: #d6ccc2;
+    color: #534d3e;
+}
+
+.l img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.ctu {
+    /*border-style: solid;*/
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.nav-title {
+    /*border-style: solid;*/
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* border: 2px solid darkcyan; */
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    width: 20%;
+}
+
+.nav-name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-name>li {
+    float: left;
+}
+
+.nav-title li {
+    list-style: none;
+    position: relative;
+}
+
+.nav-title ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* name漂浮改變顏色 */
+.nav-name>li>a:hover {
+    color: #c4b793;
+}
+
+.subname li a {
+    background-color: #e0e1dd;
+    /* subname的標題 */
+    border: 0.1px solid gray;
+    line-height: 70px;
+}
+
+.subname li a:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.nav-name a {
+    text-decoration: none;
+    color: inherit;
+    /* background-color: blue; */
+    /* width: 300px; */
+    /* border: 2px solid rgb(123, 47, 47); */
+    display: block;
+    line-height: 100px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.nav-name ul {
+    display: none;
+    /* subname總框架 */
+}
+
+.nav-name .name:hover ul {
+    display: block;
+}
+
+.subname {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
+.list {
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.l {
+    width: 60%;
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.r {
+    width: 40%;
+    display: flex;
+    /*border-style: solid;*/
+}
+
+.iconall {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    /*border-style: solid;*/
+    width: 100%;
+}
+
+.icon {
+    height: 30px;
+    /*border-style: solid;*/
+}
+
+/*導覽列結束*/
