@@ -9,7 +9,8 @@ body {
 
 .run {
     font-family: 'Noto Serif TC', serif;
-    background-color: #778da9;
+    background-color: #d6ccc2;
+    color: #534d3e;
 }
 
 .l img {
@@ -66,11 +67,11 @@ body {
 
 /* name漂浮改變顏色 */
 .nav-name>li>a:hover {
-    color: #C0A06A;
+    color: #c4b793;
 }
 
 .subname li a {
-    background-color: wheat;
+    background-color: #e0e1dd;
     /* subname的標題 */
     border: 0.1px solid gray;
     line-height: 70px;
@@ -225,6 +226,11 @@ img {
 }
 
 /*輪播圖結束*/
+
+/*熱銷商品*/
+
+
+/*熱銷商品結束*/
 
 .title-c {
     text-align: center;
