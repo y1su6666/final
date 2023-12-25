@@ -162,7 +162,7 @@ body {
     top: 0;
     transition: all 0.6s ease-in-out;
     border-radius: 10px;
-   /*border-style: solid;*/
+    /*border-style: solid;*/
 }
 
 .forget {
@@ -181,7 +181,6 @@ body {
     width: 200px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .login {
@@ -216,9 +215,7 @@ body {
     font-family: 'Noto Serif TC', serif;
 }
 
-.input_all {
-    border-style: solid;
-}
+
 
 .input {
     background-color: #fff;
@@ -228,16 +225,19 @@ body {
     width: 100%;
     font-family: 'Noto Serif TC', serif;
 }
-.sex{
+
+.sex {
     width: 105%;
-    text-align:  left;
+    text-align: left;
     margin: 0.5rem 0;
 }
-.birthday{
+
+.birthday {
     width: 105%;
-    text-align:  left;
+    text-align: left;
     margin: 0.5rem 0;
 }
+
 .btn {
     background-color: #9a8c98;
     width: 100px;

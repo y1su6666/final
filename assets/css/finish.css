@@ -138,115 +138,38 @@ body {
 }
 
 /*導覽列結束*/
-
-.img {
-    width: 60%;
-    display: block;
-    margin: auto;
-    /*border-style: solid;*/
-}
-
-.title1 {
+.order-completed-part .circle-bar {
     display: flex;
-    margin-top: 3%;
-}
-
-.icon1 {
-    width: 10%;
-    /*border-style: solid;*/
-    /*height: 30px;*/
-    /*float: right;*/
-}
-
-.text {
-    width: 50%;
-    font-size: 20px;
-    /*line-height: 10%;*/
-    font-family: 'Noto Serif TC', serif;
-}
-
-.body2 {
-    /*height: 100vh;*/
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.container {
-    max-width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.item {
-    position: relative;
-    width: 300px;
-    height: 350px;
-    /*border: 1px solid;*/
-    margin: 15px;
-    perspective: 600px;
-}
-
-.img1 {
-    position: absolute;
-    transform-origin: right;
-    transform: rotateY(0deg);
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.caption {
-    position: absolute;
-    z-index: 0;
-    background-color: #e3d5ca;
-    color: #6c584c;
-    width: 100%;
-    height: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    letter-spacing: 2px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    transform-origin: left;
-    transform: rotateY(90deg);
-    opacity: 0;
-    transition: 0.5s;
+    padding: 20px 0;
 }
 
-.caption h3 {
-    font-family: 'Noto Serif TC', serif;
-    text-align: center;
+svg {
+    display: inline-flex;
+    vertical-align: bottom;
+    width: 80px;
+    height: 80px;
 }
 
-.caption p {
-    font-family: 'Noto Serif TC', serif;
-    font-size: 15px;
+circle {
+    stroke: rgb(175, 30, 30);
+    stroke-width: 5px;
+    stroke-dasharray: 0;
+    fill: none;
 }
 
-.item:hover .img {
-    transform: rotateY(-90deg);
-    opacity: 0;
+.meter {
+    stroke-width: 5px;
+    stroke: #000;
+    fill: none;
+    transition: stroke-dashoffset 2s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+    transform-origin: center center;
+    transform: rotate(-90deg) scaleX(-1);
 }
 
-.item:hover .caption {
-    transform: rotateY(0deg);
-    opacity: 1;
-}
-
-.us {
-    width: 300px;
-    height: 350px;
-}
-
-.intro {
-    display: flex;
-    /*border-style: solid;*/
-    justify-content: space-between;
-}
-
-.intro_icon {
-    width: 25%;
-    display: block;
-    margin: auto;
+text {
+    fill: #000;
+    font-weight: bold;
+    font-size: 40px;
 }
