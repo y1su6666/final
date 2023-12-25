@@ -180,7 +180,7 @@ body {
 
 .item {
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 350px;
     /*border: 1px solid;*/
     margin: 15px;
@@ -235,7 +235,7 @@ body {
 }
 
 .us {
-    width: 300px;
+    width: 350px;
     height: 350px;
 }
 
