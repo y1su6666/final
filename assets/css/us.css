@@ -180,9 +180,9 @@ body {
 
 .item {
     position: relative;
-    width: 285px;
-    height: 190px;
-    border: 1px solid;
+    width: 350px;
+    height: 350px;
+    /*border: 1px solid;*/
     margin: 15px;
     perspective: 600px;
 }
@@ -219,6 +219,11 @@ body {
     text-align: center;
 }
 
+.caption p {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 15px;
+}
+
 .item:hover .img {
     transform: rotateY(-90deg);
     opacity: 0;
@@ -230,8 +235,8 @@ body {
 }
 
 .us {
-    width: 285px;
-    height: 190px;
+    width: 350px;
+    height: 350px;
 }
 
 .intro {
