@@ -9,15 +9,6 @@
     <link rel="stylesheet" href="../assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/image/icon.PNG" type="icon">
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ctHcKk4jtlIz0Bzvf-jVPwRB6odqluA&callback=console.debug&libraries=maps,marker&v=beta"></script>
-    <style>
-        /* 設置地圖容器的寬度和高度 */
-        #map {
-            height: 300px;
-            width: 30%;
-        }
-    </style>
 </head>
 
 <body>
@@ -64,37 +55,35 @@
         <div class="icon1">
             <img src="../assets/image/contact.png" class="img">
         </div>
-        <div class="text">
+        <div class="text_title">
             <p>聯絡我們</p>
             <p>Contact us</p>
         </div>
     </div>
 
-    <div class="contact">
+    <div class="mappp">
 
-        <div class="api">
+        <div class="mapp">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.2670371746076!2d121.24136351492882!3d24.957027684008438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346822143c046009%3A0x63e3ef21e3beebac!2z6LOH6KiK566h55CG5a2457O7!5e0!3m2!1szh-TW!2stw!4v1671475232847!5m2!1szh-TW!2stw"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
         </div>
-
-        <div class="con_input">
-        </div>
-
-    </div>
-    <div id="app" class="container">
-        <div class="row">
-            <div class="col">
-                <div id="map" class="embed-responsive embed-responsive-16by9"></div>
+        <div class="gap"></div>
+        <div class="concact_us">
+            <h2>CONTACT</h2>
+            <div class="wrap-contact">
+                <form action>
+                    <input type="text" name placeholder="NAME"><br>
+                    <input type="text" name placeholder="PHONE"><br>
+                    <input type="text" name placeholder="EMAIL"><br>
+                    <textarea class="content" id="content" name placeholder="LEAVE A COMMENT"></textarea>
+                    <button type="submit">送出</button>
+                </form>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ctHcKk4jtlIz0Bzvf-jVPwRB6odqluA&callback=initMap">
-        </script>
-    <button type="button" class="btn btn-outline-secondary" v-for="f in features"
-        @click="openInfoWindows(f.properties.id)">
-        {{ f.properties.name }}
-    </button>
-    <script src="../assets/js/contact.js"></script>
-    <script async defer src="../assets/js/map.js"></script>
+
 </body>
 
 </html>

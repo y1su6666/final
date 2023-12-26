@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: 'Noto Serif TC', serif;
 }
 
 body {
@@ -150,72 +151,82 @@ body {
     display: flex;
     margin-top: 3%;
 }
+
 .stepimg {
     width: 50%;
     display: block;
     margin: auto;
     margin-top: 1%;
 }
-.flip{
+
+.flip {
     width: 80%;
-    margin:0px;
-    padding:5px;
-    text-align:center;
-    background:#F6F6F6;
-    cursor:pointer;
-    font-family:'Arial';}
-.panel{
-    margin:0px;
-    padding:5px;
-    text-align:center;
-    background:#e5eecc;
-    border:solid 1px #c3c3c3;
-    display:none;
-    font-family:'Arial';
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background: #F6F6F6;
+    cursor: pointer;
+    font-family: 'Arial';
 }
 
-.item{
+.panel {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    background: #e5eecc;
+    border: solid 1px #c3c3c3;
+    display: none;
+    font-family: 'Arial';
+}
+
+.item {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.select-header{
+
+.select-header {
     padding: 3%;
     background-color: #F6F6F6;
 }
-.select-body{
+
+.select-body {
     margin-left: 3%;
     padding: 3%;
 }
-.customer{
+
+.customer {
     width: 30%;
-    border-color:#cfcfca;
+    border-color: #cfcfca;
     border-style: solid;
     line-height: 30px;
 }
 
-.inform{
+.inform {
     width: 30%;
-    border-color:#cfcfca;
+    border-color: #cfcfca;
     border-style: solid;
     line-height: 35px;
 }
-.input{
+
+.input {
     background-color: #fff;
     border: none;
     padding: 10px;
     margin: 0.5rem 0;
     width: 35%;
 }
+
 .input-address,
-.input-email{
+.input-email {
     background-color: #fff;
     border: none;
     padding: 10px;
     margin: 0.5rem 0;
     width: 50%;
 }
-.pay select{
+
+.pay select {
     margin: 15px;
     width: 250px;
     height: 3em;
@@ -236,6 +247,7 @@ option {
     background: #d6ccc2;
     position: absolute;
 }
+
 .next {
     display: flex;
     width: 100%;
