@@ -142,7 +142,7 @@ body {
 hr {
     width: 100%;
     color: black;
-    padding-top: 3%;
+    /*padding-top: 3%;*/
     /*padding-bottom: 3%;*/
 }
 
@@ -228,7 +228,94 @@ img {
 /*輪播圖結束*/
 
 /*熱銷商品*/
+* {
+    box-sizing: border-box;
+}
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.card {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    /*max-width: 1000px;*/
+    /*max-height: 600px;*/
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+/*img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}*/
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2 {
+    transform: translatex(-80%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-1 {
+    transform: translatex(80%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.card p {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 30px;
+    color: #534d3e;
+}
 
 /*熱銷商品結束*/
 
@@ -245,17 +332,43 @@ img {
     font-family: 'Noto Serif TC', serif;
 }
 
+
 footer {
     text-align: center;
-    background-color: #84a98c;
-    height: 80px;
+    background-color: #d6ccc2;
+    height: 100px;
     margin-top: 3%;
 }
 
-.footerlogo img {
-    width: 50px;
-    height: 50px;
+.last_title {
     margin-top: 1%;
-    margin-left: 2%;
-    float: left;
+    margin-bottom: 1%;
+}
+
+.last_title p {
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+    color: rgb(111, 109, 109);
+}
+
+
+.footer_hr {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-color: #dcd9cd;
+}
+
+.last {
+    width: 50%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.last a {
+    font-family: 'Noto Serif TC', serif;
+    text-decoration: none;
+    color: rgb(111, 109, 109);
 }

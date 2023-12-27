@@ -265,7 +265,7 @@ option {
 
 .click input {
     border: 0;
-    background-color: #003C9D;
+    background-color: #9a8c98;
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
@@ -273,9 +273,9 @@ option {
 }
 
 .click input:hover {
-    color: #003C9D;
+    color: #9a8c98;
     background-color: #fff;
-    border: 2px #003C9D solid;
+    border: 2px #9a8c98 solid;
 }
 
 /*按鈕元件結束*/
@@ -443,9 +443,7 @@ option {
     font-family: 'Noto Serif TC', serif;
 }
 
-.recommend {
-    background-color: beige;
-}
+
 
 .recommend p {
     text-align: center;
@@ -583,12 +581,12 @@ footer {
 .last_title {
     margin-top: 1%;
     margin-bottom: 1%;
-
 }
 
 .last_title p {
     font-family: 'Noto Serif TC', serif;
     text-align: center;
+    color: rgb(111, 109, 109);
 }
 
 footer hr {
@@ -600,12 +598,14 @@ footer hr {
 
 .last {
     width: 50%;
-    display: block;
-    margin: auto;
     padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
 }
 
 .last a {
     font-family: 'Noto Serif TC', serif;
     text-decoration: none;
+    color: rgb(111, 109, 109);
 }

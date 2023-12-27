@@ -142,7 +142,7 @@ body {
 hr {
     width: 100%;
     color: black;
-    padding-top: 3%;
+    /*padding-top: 3%;*/
     /*padding-bottom: 3%;*/
 }
 
@@ -214,3 +214,42 @@ hr {
 .photo3 img:hover {
     transform: scale(1.2, 1.2);
 }*/
+
+footer {
+    text-align: center;
+    background-color: #d6ccc2;
+    height: 100px;
+    margin-top: 3%;
+}
+
+.last_title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.last_title p {
+    font-family: 'Noto Serif TC', serif;
+    text-align: center;
+    color: rgb(111, 109, 109);
+}
+
+footer hr {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-color: #dcd9cd;
+}
+
+.last {
+    width: 50%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.last a {
+    font-family: 'Noto Serif TC', serif;
+    text-decoration: none;
+    color: rgb(111, 109, 109);
+}
