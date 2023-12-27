@@ -291,7 +291,8 @@ option {
 }
 
 .item_button {
-    font-size: 25px;
+    font-size: 15px;
+    width: 25px;
 }
 
 .item_num {

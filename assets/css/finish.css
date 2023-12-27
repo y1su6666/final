@@ -139,6 +139,13 @@ body {
 
 /*導覽列結束*/
 
+.stepimg {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
 .check {
     width: 5%;
     display: block;
