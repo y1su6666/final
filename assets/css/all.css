@@ -129,7 +129,7 @@ body {
     justify-content: space-evenly;
     margin: auto;
     /*border-style: solid;*/
-    width: 100%;
+    width: 30%;
 }
 
 .icon {
@@ -220,7 +220,7 @@ hr {
 .photo1 img:hover,
 .photo2 img:hover,
 .photo3 img:hover {
-    transform: scale(1.2, 1.2);
+    transform: scale(1.1, 1.06);
 }
 
 footer {

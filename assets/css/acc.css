@@ -20,23 +20,16 @@ body {
 }
 
 .ctu {
-    /*border-style: solid;*/
     width: 30%;
     display: block;
     margin: auto;
 }
 
 .nav-title {
-    /*border-style: solid;*/
     position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin-top: 1%; */
     height: 100%;
     width: 100%;
     float: left;
-    /* border: 2px solid darkcyan; */
     text-align: center;
 }
 
@@ -84,9 +77,6 @@ body {
 .nav-name a {
     text-decoration: none;
     color: inherit;
-    /* background-color: blue; */
-    /* width: 300px; */
-    /* border: 2px solid rgb(123, 47, 47); */
     display: block;
     line-height: 100px;
     font-family: 'Noto Serif TC', serif;
@@ -109,32 +99,27 @@ body {
 
 .list {
     display: flex;
-    /*border-style: solid;*/
 }
 
 .l {
     width: 60%;
     display: flex;
-    /*border-style: solid;*/
 }
 
 .r {
     width: 40%;
     display: flex;
-    /*border-style: solid;*/
 }
 
 .iconall {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    /*border-style: solid;*/
-    width: 100%;
+    width: 30%;
 }
 
 .icon {
     height: 30px;
-    /*border-style: solid;*/
 }
 
 /*導覽列結束*/
@@ -142,8 +127,6 @@ body {
 hr {
     width: 100%;
     color: black;
-    /*padding-top: 3%;*/
-    /*padding-bottom: 3%;*/
 }
 
 
@@ -151,29 +134,20 @@ hr {
     width: 60%;
     display: block;
     margin: auto;
-    /*border-style: solid;*/
 }
 
 .title1 {
-    /*width: 60%;*/
-    /*float: left;*/
     display: flex;
-    /*border-style: solid;*/
 }
 
 .icon1 {
     width: 10%;
-    /*border-style: solid;*/
-    /*height: 30px;*/
-    /*float: right;*/
 }
 
 .text {
     width: 50%;
     font-size: 20px;
-    /*line-height: 10%;*/
     font-family: 'Noto Serif TC', serif;
-    /*border-style: solid;*/
 }
 
 .photo {
@@ -193,7 +167,6 @@ hr {
 .photo2,
 .photo3 {
     width: 25%;
-    /*border-style: solid;*/
 }
 
 .photo1 p,
@@ -201,19 +174,6 @@ hr {
 .photo3 p {
     font-family: 'Noto Serif TC', serif;
 }
-
-/*.photo1 img,
-.photo2 img,
-.photo3 img {
-    transform: scale(1, 1);
-    transition: all 1s ease-out;
-}
-
-.photo1 img:hover,
-.photo2 img:hover,
-.photo3 img:hover {
-    transform: scale(1.2, 1.2);
-}*/
 
 footer {
     text-align: center;
